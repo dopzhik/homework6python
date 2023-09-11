@@ -14,4 +14,3 @@ list_1 = [randint(-10, 20) for _ in range(20)]
 print(list_1)
 cur_list = [i for i in range(20) if list_1[i] in range(min_num, max_num+1)]
 print(cur_list)
-print(range(min_num, max_num))
